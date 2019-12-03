@@ -1,0 +1,137 @@
+
+/*基本样式*/
+* {
+	margin: 0;
+	padding: 0;
+	/* 防止越界 */
+	box-sizing: border-box;
+	outline: none;
+}
+
+
+/*栅格布局*/
+.row{
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1{
+	flex:  0 0 100%;
+}
+.col-2{
+	flex: 0 0 50%;
+}
+.col-3{
+	flex: 0 0 33.3%;
+}
+.col-4{
+	flex: 0 0 25%;
+}
+.col-5{
+	flex: 0 0 20%;
+}
+.col-6{
+	flex: 0 0 16.5%;
+}
+.col-7{
+	flex: 0 0 14.2%;
+}
+.col-8{
+	flex:0 0 12.5%;
+}
+.container{
+	margin: 0 auto;
+	text-align: left;
+	position: relative;
+}
+/* 对齐方式 */
+.tx-left {
+	text-align: left;
+}
+
+.tx-center {
+	text-align: center;
+}
+
+.tx-right {
+	text-align: right;
+}
+
+.tx-justify {
+	text-align: justify;
+}
+
+/* 居中定位 */
+.abs-center {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* 垂直居中,水平居右 */
+.abs-center-right {
+	position: absolute;
+	left: 82%;
+	top: 50%;
+	transform: translate(-82%, -50%);
+}
+/* 弹性布局 */
+.flex {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.flex-center {
+	justify-content: center;
+}
+
+.flex-between {
+	justify-content: space-between;
+}
+
+.flex-around {
+	justify-content: space-around;
+}
+
+.flex-left {
+	justify-content: flex-start;
+}
+
+.flex-right {
+	justify-content: flex-end;
+}
+
+
+
+.flex-center-y {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-top-y {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+/*导航栏与主页面的距离*/
+.nav-juli{
+	padding-bottom: 40px;
+}
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+li{
+	list-style: none;
+	color: #009688;
+}
